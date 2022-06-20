@@ -1,7 +1,7 @@
 class PowerpuffGirl extends HTMLElement {
     constructor() {
         super();
-        this attachShadow({mode: "open"});
+        //this attachShadow({mode: "open"});
     }
     static get styles() {
         /*return  
@@ -11,13 +11,13 @@ class PowerpuffGirl extends HTMLElement {
         ;*/
     }
     connectedCallback() {
-        this render();
+        //this render();
     }
 
     render() {
-        this shadowRoot this.innerHTML = ``
+        /*this shadowRoot this.innerHTML = ``
         <style>{PowerpuffGirl styles}</style>
-        /*<div>
+        <div>
 
         </div>`;*/
     }
